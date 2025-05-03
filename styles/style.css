@@ -137,12 +137,12 @@
 .card {
   background-color: transparent;
   width: 360px;
-  height: auto;
+  height: 420px;
   border-radius: 7px;
   box-shadow: none;
   display: flex;
   flex-direction: column;
-  box-sizing: 360px 420px;
+  box-sizing: border-box;
 }
 
 .card__content {
