@@ -17,7 +17,8 @@
 }
 
 .nav__logo {
-  /* No es necesario en realidad, pero lo agrego basado en el brief */
+  width: 58px;
+  height: 80px;
 }
 
 .nav__links {
@@ -61,19 +62,19 @@
 }
 
 .header__title {
-  font-weight: 450;
+  font-weight: 500;
   margin-top: 128px;
-  font-size: 60px;
-  line-height: 75px;
+  font-size: 62px;
+  line-height: 76px;
   max-width: 635px;
 
 }
 
 .header__description {
-  max-width: 555px;
-  line-height: 32px;
-  font-size: 21px;
+  max-width: 500px;
   margin-top: 32px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
