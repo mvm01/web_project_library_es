@@ -45,6 +45,11 @@
   box-sizing: border-box;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header__content {
   display: flex; 
   width: 100%;
@@ -78,8 +83,7 @@
 }
 
 .header__image {
-  width: 100%;
-  /* Porfavor indicame como hacerlo correctamenet si me volvi a equivocar tengo que rogar para que algun mentor me ayude y no me quiero volver muy dependiente de la IA */
+  max-width: 636px;
 }
 
 .header__footer {
