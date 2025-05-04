@@ -118,28 +118,21 @@
 }
 
 .staff__title {
+  color: #ffffff; */
   text-align: center;
-  max-width: 784px;
-  margin-top: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-bottom: 24px;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 44px;
   line-height: 52px;
   font-weight: 400;
+  margin: 0 0 24px;
   color: #ffffff;
 }
 
 .staff__subtitle {
   text-align: center;
-  max-width: 750px;
-  margin: 0;
-  margin-bottom: 60px;
-  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+  margin: 0;
   color: #ffffff;
 }
 
@@ -176,13 +169,10 @@
 }
 
 .card__title {
-  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
-  color: #000000;
   margin: 0;
-  margin-bottom: 10px;
 }
 
 .card__text {
