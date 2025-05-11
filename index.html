@@ -134,7 +134,7 @@
             </li>
           </ul>
         </section>
-        <section class="events">
+        <section class="events" id="events">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
             <h3 class="events__title">
@@ -177,54 +177,158 @@
               alt="Cafe icon"
               class="events__image"
             />
-            <div class="person" class="person_name_feyman">
-              <p class="person__caption">Joan Feyman</p>
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
               <img
                 src="./images/person_feynman.png"
                 alt="Feyman icon"
-                class="person__image"
-                [class]="person__image_size_l"
+                class="person__image person__image_size_l"
               />
             </div>
-            <div class="person" class="person_name_burbidge">
+            <div class="person person_name_burbidge">
               <p class="person__caption">Margaret Burbidge</p>
               <img
                 src="./images/person_burbidge.png"
                 alt="Burbidge icon"
-                class="person__image"
-                [class]="person__image_size_m"
+                class="person__image person__image_size_m"
               />
             </div>
-            <div class="person" class="person_name_cannon">
+            <div class="person person_name_cannon">
               <p class="person__caption">Annie Jump Cannon</p>
               <img
                 src="./images/person_cannon.png"
                 alt="Cannon icon"
-                class="person__image"
-                [class]="person__image_size_m"
+                class="person__image_size_m person__image"
               />
             </div>
-            <div class="person" class="person_name_mitchell">
+            <div class="person person_name_mitchell">
               <p class="person__caption">Maria Mitchell</p>
               <img
                 src="./images/person_mitchell.png"
                 alt="Mitchell icon"
-                class="person__image"
-                [class]="person__image_size_s"
+                class="person__image_size_s person__image"
               />
             </div>
-            <div class="person" class="person_name_Tarter">
+            <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
               <img
                 src="./images/person_tarter.png"
                 alt="tarter icon"
-                class="person__image"
-                [class]="person__image_size_m"
+                class="person__image_size_m person__image"
               />
             </div>
           </div>
         </section>
+        <section class="membership" id="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
       </main>
+      <div class="page">
+        <footer class="footer page" id="contacts">
+          <div class="footer__columns">
+            <div class="footer__column">
+              <div class="footer__logo">
+                <img
+                  src="images/Iconleftside.png"
+                  alt="Logotipo de la Biblioteca Triple Peaks"
+                  class="footer__logo"
+                />
+              </div>
+            </div>
+            <div class="footer__column footer__column_content_hours">
+              <h3 class="footer__column-heading">Horas</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  Lunes a viernes: 9 a.m. - 8 p.m.
+                </li>
+                <li class="footer__list-item">
+                  Sábados y domingos: 10 a.m. - 6 p.m.
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column footer__column_content_social">
+              <h3 class="footer__column-heading">Redes sociales</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__column-link">
+                    Facebook
+                    <img
+                      src="./images/facebook_white.svg"
+                      alt="Facebook"
+                      class="footer__social-icon"
+                    />
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__column-link">
+                    Instagram
+                    <img
+                      src="./images/instagram_white.svg"
+                      alt="Instagram"
+                      class="footer__social-icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__copyright">© 2025 Mauricio Velazquez</p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
