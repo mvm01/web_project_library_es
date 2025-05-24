@@ -344,12 +344,16 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 0 auto; /* Brief: eliminar márgenes incorrectos */
+  margin: 100px auto 0; /* Centrado y con margen superior */
   display: flex;
-  justify-content: center; /* Centrar tarjetas */
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 40px; /* Brecha correcta */
-  max-width: calc(4 * 220px + 3 * 40px);
+  gap: 40px; /* Brecha correcta [cite: 12] */
+  max-width: 1000px; /* Ancho máximo para controlar el contenedor */
+}
+
+.step__description {
+  margin-top: 20px;
 }
 
 .step {
@@ -368,13 +372,16 @@
   line-height: 30px;
   font-weight: 700;
   display: flex;
-  align-items: center; /* Alinear icono y texto verticalmente */
-  justify-content: center; /* Centrar contenido */
+  align-items: center;
+  justify-content: center;
 }
 
-/* Sección Footer (Correcciones) */
+.step__icon {
+  margin-left: 10px; /* Espacio entre el texto y el icono */
+}
+
 .footer {
-  padding: 80px 0; /* Unificar padding (arriba/abajo: 80px) */
+  padding: 80px 0 60px;
   background-color: #1f1f1f;
   color: #ffffff;
   box-sizing: border-box;
@@ -382,10 +389,10 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-between; /* Columnas espaciadas */
+  justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 80px; /* Añadir padding lateral si es necesario */
+  padding: 0 80px;
 }
 
 .footer__column {
@@ -403,29 +410,39 @@
 
 .footer__logo {
   width: 100px; /* Tamaño especificado */
-  height: 100px; /* Ajustar según imagen */
+  height: auto; /* Ajustar según imagen */
+}
+
+.footer__column-heading {
+  margin: 0 0 20px; /* Espacio inferior */
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .footer__list {
   list-style-type: none;
   padding: 0;
-  margin: 0; /* Eliminar márgenes por defecto */
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: center; /* Alinear icono y texto */
-  column-gap: 10px; /* Espacio entre elementos */
+  align-items: center;
+  gap: 10px; /* Espacio entre icono y texto [cite: 37] */
 }
 
 .footer__social-icon {
-  width: 24px;
-  height: 24px;
+  /* Tamaño corregido a 16x16px [cite: 37] */
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
-  margin-top: 60px; /* Margen superior correcto */
+  /* Margen superior corregido [cite: 37] */
+  margin-top: 100px;
   text-align: center;
 }
